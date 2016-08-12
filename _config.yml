@@ -1,0 +1,77 @@
+---
+title: DCDW
+timezone: America/New_York
+collections:
+  dcdw-committee-members:
+    title: DCDW-Committee-Members
+    output: true
+  dcdw-creative-team:
+    title: DCDW-Creative-Team
+    output: true
+  events:
+    title: Events
+    output: true
+  posts:
+    title: Posts
+    output: true
+  sponsors:
+    title: Sponsors
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: singles/event
+    event-bg-image: 
+    event-date: 
+    event-venue-directions: 
+    event-venue-name: 
+    is-featured-on-home-page: 
+    is-even-on-home-page: 
+    is-even-on-events-page: 
+- scope:
+    path: ''
+    type: sponsors
+  values:
+    sponsor-image: 
+    is-even-on-home-page: 
+    is-first-tier: 
+    is-second-tier: 
+    is-third-tier: 
+- scope:
+    path: ''
+    type: dcdw-committee-members
+  values:
+    committee-member-headshot-image: 
+    committee-member-name: 
+    committee-member-title: 
+    committee-member-email: 
+- scope:
+    path: ''
+    type: dcdw-creative-team
+  values:
+    creative-team-member-headshot-image: 
+    creative-team-member-name: 
+    creative-team-member-title: 
+    creative-team-member-portfolio: 
+ionicons: http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
+logo-file: "/uploads/dcdw-logo.svg"
+contact-email: dcdw@aigadc.org
+copyright: "© AIGA DC | 2016 All Rights Reserved."
+exclude:
+- package.json
+- gulpfile.js
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- DesignInsperation.txt
+- ".jekyll-metadata"
+- ".sass-cache"
+sass:
+  sass_dir: _sass
+  style: compressed

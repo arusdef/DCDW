@@ -1,0 +1,174 @@
+/* Events Homepage */
+.card {
+	border: solid 5px $black;
+	max-width: 375px;
+	min-height: 440px;
+	margin: 1em auto;
+}
+
+.card:hover {
+}
+
+span.card-day {
+  left: -30px;
+  top: 15px;
+	border-right: solid 5px $dcdw-blue;
+	border-bottom: solid 5px $dcdw-blue;
+}
+
+span.card-date {
+  left: -18px;
+  top: 49px;
+	border-right: solid 5px $dcdw-blue;
+	border-bottom: solid 5px $dcdw-blue;
+}
+
+.card-image {
+	border-bottom: solid 5px $black;
+	min-height: 200px;
+}
+
+.card-image img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.card-divider {
+	max-width: 40px;
+	text-align: left;
+}
+
+a.schedule-link {
+  border-bottom: 10px solid $dcdw-blue;
+  color: $dcdw-blue;
+}
+
+.card-2nd-row {
+  right: -100px;
+}
+
+/* removes the negative right padding applies to events in the 2nd row */
+@media screen and (max-width: 1280px ) {
+	.card-2nd-row {
+		right: 0;
+	}
+}
+
+@media screen and (max-width: 831px) {
+	span.card-day {
+    left: -15px;
+    top: -15px;
+	}
+
+	span.card-date {
+		left: 5px;
+    top: 12px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.card {
+		min-height: 200px;
+		height: auto;
+		margin: 3em auto;
+		max-width: 100%;
+	}
+
+	.card-image {
+		min-height: 200px;
+    min-width: 175px;
+		border-right: solid 5px $black;
+	}
+
+	.card-image,
+	.card-details {
+    float: left;
+	}
+
+	span.card-day {
+    left: 15px;
+    top: -30px;
+	}
+
+	span.card-date {
+    left: 45px;
+    top: -3px;
+	}
+}
+
+@media screen and (max-width: 523px) {
+	.card-image {
+		min-width: 125px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.card {
+		min-height: 250px;
+	}
+
+	.card-image {
+		display: none;
+	}
+
+	.card-details {
+		margin-top: 2.5em;
+	}
+
+	span.card-day {
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+}
+
+/* Events Page & Layout */
+
+span.event-title-header {
+	min-width: 125%;
+}
+
+@media screen and (max-width: 480px) {
+	span.event-title-header {
+		min-width: 100%;
+	}
+}
+
+/* speakers list */
+/*
+ * ==== Losange
+ */
+
+.diamond-border {
+	transform: rotate(45deg) translateY(25px);
+	width: 90px;
+	height: 90px;
+	margin-left: 1.5em;
+	border: solid 4px #000;
+ }
+
+.diamond {
+	transform-origin: 50% 50%;
+	width: 100px;
+	height: 100px;
+	transform: rotate(0deg) translateX(5px) translateY(-15px);
+}
+
+.los1:after {
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	outline: 2px solid $black;
+	outline-offset: 5px;
+}
+
+.diamond .los1 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(-45deg) translateY(-150px);
+}
+
+.diamond .los1 img {
+  width: 100%;
+  height: auto;
+}

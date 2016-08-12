@@ -1,0 +1,133 @@
+/*=============================================>>>>>
+= DCDW Global Variables =
+===============================================>>>>>*/
+
+@import "typography";
+
+/*= End of DCDW Global Variables =*/
+/*=============================================<<<<<*/
+
+/*=============================================>>>>>
+= DCDW Global Classes & Styles =
+===============================================>>>>>*/
+
+/* sets the max width of the container for the site */
+.container {
+  max-width: 72em !important;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* removes the initial padding on any UL elements */
+ul {
+	-webkit-padding-start: 0 !important;
+}
+
+/* fixed top bar that contains the nav links */
+.global-header {
+  height: 60px;
+}
+
+.header-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+}
+
+.logo-wrapper {
+  top: 15px;
+}
+
+.main-nav {
+  top: 20px;
+}
+
+article {
+  margin-top: 160px;
+}
+
+article h1 {
+  font-size: $text-xx-large;
+  line-height: 1em;
+  font-family: $courier;
+  margin: 0;
+}
+
+/* adds the dcdw block after the page title */
+article h1:after {
+  content: url('/uploads/dc-design-week-snippet.png');
+  position: absolute;
+}
+
+article p {
+  font-size: $text-default;
+  font-family: $courier;
+  text-align: $align-justify;
+  letter-spacing: -0.625px;
+}
+
+article hr,
+.title-divider {
+  width: 100%;
+  max-width: 100px;
+  border: solid 2px $black;
+}
+
+article hr {
+	margin: 2em 0 3.5em 0;
+}
+
+.title-divider {
+	margin: 2em 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* removes the dcdw block after the page title */
+  article h1:after {
+    content: '';
+  }
+}
+
+@media screen and (max-width: 831px ) {
+  /* removes the fixed positioning on smaller tablets/mobile devices */
+  .global-header {
+    position: relative;
+  }
+
+  article {
+    margin-top: 60px;
+  }
+
+  article h1 {
+    font-size:$text-x-large;
+  }
+
+  article hr {
+  	margin: 2em 0 2.5em 0;
+  }
+}
+
+/* Home Partners */
+.sponsor-card {
+  min-height: 150px;
+}
+
+@media screen and (max-width:831px) {
+  .sponsor-card {
+    text-align: center;
+  }
+}
+
+
+/*= End of DCDW Global Classes & Styles =*/
+/*=============================================<<<<<*/

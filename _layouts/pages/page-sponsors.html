@@ -1,0 +1,131 @@
+{% include global/head-open.html %}
+  <main class="overflow-hidden">
+    {% include header.html %}
+
+    <article class="sponsors relative mb4">
+      <div class="container clearfix p3">
+      	<div class="sm-col sm-col-12 md-col-10">
+  				{{ page.content }}
+  			</div>
+      </div>
+    </article>
+
+    <section class="first-tier py4">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="m0 text-large courier">
+            {{page.first-tier-header-text}}
+          </h1>
+          <hr class="title-divider">
+          <p class="m0 courier text-default" style="text-align: justify;">
+            {{page.first-tier-sub-header-text}}
+          </p>
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for posts in site.sponsors limit:8 %}
+            {% if posts.is-first-tier == true %}
+              <div class="sm-col sm-col-6 md-col-3">
+                <div class="sponsor-card">
+                  <!-- Sponsor Logo -->
+                  <img src="{{ posts.sponsor-image }}">
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <a href="{{page.first-tier-button-link}}" class="courier text-default">
+            {{page.first-tier-button-text}}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-tier py4" style="background-color: {{page.second-tier-bg-color}}">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="m0 text-large courier">
+            {{page.second-tier-header-text}}
+          </h1>
+          <hr class="title-divider">
+          <p class="m0 courier text-default" style="text-align: justify;">
+            {{page.second-tier-sub-header-text}}
+          </p>
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for posts in site.sponsors limit:8 %}
+            {% if posts.is-second-tier == true %}
+              <div class="sm-col sm-col-6 md-col-3">
+                <div class="sponsor-card">
+                  <!-- Sponsor Logo -->
+                  <img src="{{ posts.sponsor-image }}">
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <a href="{{page.second-tier-button-link}}" class="courier text-default">
+            {{page.second-tier-button-text}}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-tier py4">
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <h1 class="m0 text-large courier">
+            {{page.third-tier-header-text}}
+          </h1>
+          <hr class="title-divider">
+          <p class="m0 courier text-default" style="text-align: justify;">
+            {{page.third-tier-sub-header-text}}
+          </p>
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          {% for posts in site.sponsors limit:8 %}
+            {% if posts.is-third-tier == true %}
+              <div class="sm-col sm-col-6 md-col-3">
+                <div class="sponsor-card">
+                  <!-- Sponsor Logo -->
+                  <p class="m0 courier text-default">
+                    {{ posts.title}}
+                  </p>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container clearfix p3">
+        <div class="sm-col sm-col-12 md-col-1 py1"></div>
+        <div class="sm-col sm-col-12 md-col-11">
+          <a href="{{page.third-tier-button-link}}" class="courier text-default">
+            {{page.third-tier-button-text}}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+  </main>
+{% include global/head-closed.html %}

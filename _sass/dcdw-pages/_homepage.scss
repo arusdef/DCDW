@@ -1,0 +1,110 @@
+/***
+DCDW Homepage
+***/
+
+/* Introduction Header */
+
+.introduction {
+  height: 525px;
+  max-height: 525px;
+  border-bottom: 5px solid #000;
+  margin-top: 60px;
+}
+
+img.introduction-illustration,
+img.design-week {
+  min-width: 100%;
+  vertical-align: middle;
+}
+
+.design-week-wrapper {
+  top: 300px;
+}
+
+.introduction-illustration-wrapper {
+  top: -75px;
+}
+
+.paragraph-2 {
+  top: -120px;
+  margin-bottom: -100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .introduction-illustration-wrapper {
+    top: 25px;
+    right: 25px;
+  }
+
+  img.introduction-illustration {
+    max-width: 600px;
+  }
+
+  img.design-week {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  .introduction {
+    height: 400px;
+  }
+
+  .design-week-wrapper {
+    top: 140px;
+  }
+
+  img.introduction-illustration {
+    max-width: 375px;
+  }
+
+  .introduction-illustration-wrapper {
+    top: -150px;
+    right: -400px;
+  }
+
+  .dc-design {
+    padding: 0;
+  }
+
+  .paragraph-1,
+  .paragraph-2 {
+    top:0;
+    padding: 0;
+  }
+
+  .paragraph-2 {
+    margin-bottom: 3em;
+  }
+}
+
+/* DC is Design */
+
+
+/* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
+.introduction-illustration {
+  animation: float 5000ms ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translate(0, 25px);
+  }
+}
+
+/* positioning for homepage illustrations until line 35 */
+.top-illustration {
+  left: 300px;
+  top: -50px;
+  z-index: 9999;
+}
+
+.right-illustration {
+  left: 300px;
+  top: 75px;
+}
+
+.left-illustration {
+  left: 40px;
+  top: -10px;
+}

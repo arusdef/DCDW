@@ -1,0 +1,137 @@
+.dcdw-about-bg-wrapper img {
+  max-height: 580px;
+}
+
+.dcdw-about-bg-wrapper {
+  top: -10px;
+  right: 275px;
+}
+
+@media screen and (max-width: 1440px) {
+  .dcdw-about-bg-wrapper {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .dcdw-about-bg-wrapper {
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dcdw-about-bg-wrapper {
+    right: 0;
+    left: 0;
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .dcdw-about-bg-wrapper {
+    top: -50px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .pop-up-shop-bg-wrapper,
+  .get-out-the-vote-bg-wrapper {
+    top: -200px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .pop-up-shop-bg-wrapper,
+  .get-out-the-vote-bg-wrapper {
+    top: -150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pop-up-shop-bg-wrapper,
+  .get-out-the-vote-bg-wrapper {
+    top: -75px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pop-up-shop-bg-wrapper,
+  .get-out-the-vote-bg-wrapper {
+    top: 0;
+  }
+}
+
+/* DCDW Committee */
+
+li.committee-member {
+    width: 100%;
+    min-height: 150px;
+}
+
+.committee-member-details-wrapper {
+    width: 100%;
+}
+
+.committee-diamond-border {
+	transform: rotate(45deg);
+	width: 75px;
+	height: 75px;
+	border: solid 4px #000;
+ }
+
+.committee-diamond {
+	transform-origin: 50% 50%;
+	width: 85px;
+	height: 85px;
+	transform: rotate(0deg) translateX(5px) translateY(-15px);
+}
+
+/*.committee-los1:after {
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	outline: 2px solid $black;
+	outline-offset: 5px;
+}*/
+
+.committee-diamond .committee-los1 {
+  width: 250px;
+  height: 250px;
+  transform: rotate(-45deg) translateY(-150px);
+}
+
+.committee-diamond .committee-los1 img {
+  width: 100%;
+  height: auto;
+	vertical-align: middle;
+}
+
+.commitee-diamond-wrapper {
+  min-height: 75px;
+  min-width: 75px;
+  left: -45px;
+}
+
+@media screen and (max-width: 1180px) {
+  .committee-member {
+    width: 100%;
+  }
+
+  .commitee-diamond-wrapper {
+    margin: 2.75em auto;
+    left: 0;
+    width: 100%;
+  }
+
+  .committee-diamond-border {
+    margin: 0 auto;
+   }
+
+  .committee-member-details-wrapper {
+    text-align: center;
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

@@ -1,20 +1,12 @@
-{% if page.layout == 'event' %}
-  <header class="global-header px3 border relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
-    <div class="logo-wrapper relative left">
-      <a href="/"><img src="/uploads/dcdw-logo.svg"></a>
+<header class="global-header px3 py3 relative bg-white header-shadow z4 fixed top-0 left-0 right-0" style="z-index: 9999;">
+  <div class="container clearfix">
+    <!-- desktop logo -->
+    <div class="logo-wrapper relative left xs-hide sm-hide md-hide">
+      <a href="/"><img src="/uploads/dcdw-logo-desktop.svg"></a>
     </div>
-    <nav class="main-nav relative right xs-hide sm-hide">
-      <ul>
-         <li class="inline-block m0">
-           <a href="/events/" class="text-x-small text-regular black mr2 text-uppercase text-bold m0">&larr; Back to Events</a>
-         </li>
-       </ul>
-    </nav>
-  </header>
-{% else %}
-  <header class="global-header px3 border relative bg-white header-shadow z4 fixed top-0 left-0 right-0">
-    <div class="logo-wrapper relative left">
-      <a href="/"><img src="/uploads/dcdw-logo.svg"></a>
+    <!--  mobile logo -->
+    <div class="logo-wrapper-mobile relative left xs-show sm-show md-show lg-hide">
+      <a href="/"><img src="/uploads/dcdw-logo-mobile.svg"></a>
     </div>
     <nav class="main-nav relative right xs-hide sm-hide">
       <ul>
@@ -22,10 +14,10 @@
         {% assign sorted_pages = site.pages | sort:"position" %}
         {% for page in sorted_pages %}
          <li class="inline-block m0">
-           <a href="{{ page.permalink }}" class="text-x-small text-regular black mr2 text-uppercase text-bold m0">{{ page.title }}</a>
+           <a href="{{ page.permalink }}" class="text-default fw-black black ml3 text-uppercase m0">{{ page.title }}</a>
          </li>
         {% endfor %}
        </ul>
     </nav>
-  </header>
-{% endif %}
+  </div>
+</header>

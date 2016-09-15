@@ -17,6 +17,11 @@
   margin: 0 auto;
 }
 
+.header-container {
+  max-width: 84em !important;
+  margin: 0 auto;
+}
+
 .padding-large-y {
   padding-top: 500px;
   padding-bottom: 500px;
@@ -63,43 +68,49 @@ ul {
 
 /* fixed top bar that contains the nav links */
 .global-header {
-  height: 60px;
+
 }
 
 .header-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
 }
 
-.logo-wrapper {
-  top: 15px;
+.logo-wrapper img,
+.logo-wrapper-mobile img {
+  width: 100%;
+  vertical-align: middle;
 }
 
-.main-nav {
-  top: 20px;
+.logo-wrapper img {
+  max-width: 200px;
 }
 
-article {
-  margin-top: 160px;
+.logo-wrapper-mobile img {
+  max-width: 100px;
 }
+
+article.page-introduction {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 831px) {
+  article.page-introduction {
+    margin-top: 175px;
+  }
+}
+
+article { padding-bottom: 4em; }
 
 article h1 {
-  font-size: $text-xx-large;
-  line-height: 1em;
-  font-family: $courier;
+  font-size: $text-headline;
+  font-family: $bbroller;
+  line-height: normal;
   margin: 0;
-}
-
-/* adds the dcdw block after the page title */
-article h1:after {
-  content: url('/uploads/dc-design-week-snippet.png');
-  position: absolute;
 }
 
 article p {
   font-size: $text-default;
   font-family: $sans;
-  text-align: $align-justify;
-  font-weight: $text-light;
   line-height: 1.75em;
 }
 
@@ -107,51 +118,44 @@ article hr,
 .title-divider {
   width: 100%;
   max-width: 100px;
-  border: solid 2px $black;
+  border: solid 2.5px $black;
 }
 
-article hr {
-	margin: 2em 0 3.5em 0;
-}
+article hr { margin: 3.5em 0; }
+.title-divider { margin: 2em 0; }
 
-.title-divider {
-	margin: 2em 0;
-}
+@media screen and (min-width: 831px) {
+  article h1 { font-size: $text-billboard; }
 
-@media screen and (max-width: 1024px) {
-  /* removes the dcdw block after the page title */
+  /* adds the dcdw block after the page title */
   article h1:after {
-    content: '';
-  }
-}
-
-@media screen and (max-width: 831px ) {
-  /* removes the fixed positioning on smaller tablets/mobile devices */
-  .global-header {
-    position: relative;
+    content: url('/uploads/dc-design-week-snippet.png');
+    position: absolute;
   }
 
-  article {
-    margin-top: 60px;
-  }
-
-  article h1 {
-    font-size:$text-x-large;
-  }
-
-  article hr {
-  	margin: 2em 0 2.5em 0;
-  }
+  article p { font-size: $text-medium; }
+  .global-header { position: fixed; }
 }
 
 /* Home Partners */
-.sponsor-card {
-  min-height: 150px;
+.sponsor-logo {
+  min-height: 110px;
+  width: 100%;
+  text-align: center;
+  margin: 2em 0;
 }
 
-@media screen and (max-width:831px) {
-  .sponsor-card {
-    text-align: center;
+@media screen and (min-width:640px) {
+  .sponsor-logo {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width:831px) {
+  .sponsor-logo {
+    width: 25%;
+    text-align: left;
   }
 }
 
@@ -169,19 +173,14 @@ article hr {
 }
 
 /* adds a right border to the last column in the grid */
-.grid-line:last-child {
-	border-right: solid 0.01px #eaeaea;
-}
-
-.blue-shadow {
-  box-shadow: 15px 20px blue;
-}
+.grid-line:last-child { border-right: solid 0.01px #eaeaea; }
 
 @media screen and (max-width: 1024px) {
   .grid-line:nth-child(6) {
   	border-right: solid 0.01px #eaeaea;
   }
 }
+
 
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/

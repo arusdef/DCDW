@@ -1,38 +1,60 @@
 /* Events Homepage */
-.card {
+.featured-event-card,
+.event-card {
+	margin: 2.5em 0;
+}
+
+.event-image {
+	height: auto;
 	border: solid 3px $black;
-	max-width: 300px;
-	min-height: 400px;
-	margin: 1em auto;
 }
 
-.card-details {
+.event-details {
 	min-height: 175px;
-}
-.card:hover {
-}
-
-span.card-day {
-  left: -30px;
-  top: 15px;
+	border: solid 3px $black;
 }
 
-span.card-date {
-  left: -18px;
-  top: 49px;
+@media screen and (min-width: 640px) {
+	.event-card {
+		padding: 0 0.5em;
+	}
 }
 
-span.card-day,
-span.card-date {
-	box-shadow: 5px 5px $dcdw-blue;
+@media screen and (min-width: 831px) {
+	.event-card {
+		padding: 0 1em;
+	}
 }
 
-.card-image {
-	border-bottom: solid 3px $black;
-	min-height: 175px;
+@media screen and (min-width: 1280px) {
+	.event-list-wrapper {
+		padding: 0
+	}
+	.event-card {
+		padding: 0 1.5em;
+	}
 }
 
-.card-image img {
+span.event-date-mobile {
+	top: -20px;
+	left: -20px;
+}
+
+span.event-day,
+span.event-date,
+span.event-date-mobile {
+	box-shadow: 7.5px 7.5px $dcdw-blue;
+	transition: box-shadow 100ms ease-in-out;
+}
+
+span.event-day:hover,
+span.event-date:hover,
+span.event-date-mobile:hover {
+	box-shadow: 0 0 $dcdw-blue;
+}
+
+
+.event-image img {
 	width: 100%;
 	vertical-align: middle;
 }
@@ -47,132 +69,57 @@ a.schedule-link {
   color: $dcdw-blue;
 }
 
-.card-2nd-row {
-  right: -100px;
-}
+@media screen and (min-width: 640px) {
+	span.event-day {
+	  left: -3px;
+	  top: 25px;
+		font-size: $text-default;
+	}
 
-/* removes the negative right padding applies to events in the 2nd row */
-@media screen and (max-width: 1280px ) {
-	.card-2nd-row {
-		right: 0;
+	span.event-date {
+	  left: 5px;
+	  top: 65px;
+		font-size: $text-default;
 	}
 }
 
-@media screen and (max-width: 831px) {
-	span.card-day {
-    left: -15px;
-    top: -15px;
+@media screen and (min-width: 1024px) {
+	span.event-day {
+	  left: -7.5px;
+	  top: 25px;
 	}
 
-	span.card-date {
-		left: 5px;
-    top: 12px;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.card {
-		min-height: 200px;
-		height: auto;
-		margin: 3em auto;
-		max-width: 100%;
-	}
-
-	.card-image {
-		min-height: 200px;
-    min-width: 175px;
-		border-right: solid 5px $black;
-	}
-
-	.card-image,
-	.card-details {
-    float: left;
-	}
-
-	span.card-day {
-    left: 15px;
-    top: -30px;
-	}
-
-	span.card-date {
-    left: 45px;
-    top: -3px;
-	}
-}
-
-@media screen and (max-width: 523px) {
-	.card-image {
-		min-width: 125px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.card {
-		min-height: 250px;
-	}
-
-	.card-image {
-		display: none;
-	}
-
-	.card-details {
-		margin-top: 2.5em;
-	}
-
-	span.card-day {
-		top: 0;
-		right: 0;
-		left: 0;
+	span.event-date {
+	  left: -2.5px;
+	  top: 65px;
 	}
 }
 
 /* Events Page & Layout */
 
-span.event-title-header {
-	min-width: 125%;
+/* overlay of color used on the single events page */
+.overlay {
+	background-color: RGBA(0, 0, 255, 0.50);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 831px) {
+	.single-event-header {
+		margin-top: 5em;
+	}
+
 	span.event-title-header {
-		min-width: 100%;
+		min-width: 125%;
 	}
 }
 
-/* speakers list */
-/*
- * ==== Losange
- */
-
-.diamond-border {
-	transform: rotate(45deg) translateY(25px);
-	width: 90px;
-	height: 90px;
-	margin-left: 1.5em;
-	border: solid 4px #000;
- }
-
-.diamond {
-	transform-origin: 50% 50%;
-	width: 100px;
-	height: 100px;
-	transform: rotate(0deg) translateX(5px) translateY(-15px);
-}
-
-.los1:after {
-	position: absolute;
-	height: 100px;
-	width: 200px;
-	outline: 2px solid $black;
-	outline-offset: 5px;
-}
-
-.diamond .los1 {
-  width: 300px;
-  height: 300px;
-  transform: rotate(-45deg) translateY(-150px);
-}
-
-.diamond .los1 img {
-  width: 100%;
-  height: auto;
+@media screen and (min-width: 1680px) {
+	span.event-title-header {
+		min-width: 175%;
+	}
 }

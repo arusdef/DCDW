@@ -1,7 +1,7 @@
 {% include global/head-open.html %}
   <main class="overflow-hidden relative">
-    {% include header.html %}
-      <section class="introduction">
+
+      <section class="introduction bg-cover bg-center" style="background-image: url('{{ page.homepage-hero-image }}')">
         <div class="container clearfix px3">
           <div class="design-week-wrapper relative sm-col sm-col-12 md-col-5 lg-col-4 px1">
             <img class="design-week" src="/uploads/dc-design-week.svg">
@@ -9,9 +9,11 @@
         </div>
       </section>
 
+      <!--
       <div class="illustration-1-wrapper container clearfix relative">
         <img class="illustration-1 absolute floaty" src="/uploads/1-MonumentPiece.png">
       </div>
+    -->
 
       {% include partials/home/dc-is-design.html %}
 

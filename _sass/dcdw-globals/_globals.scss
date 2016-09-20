@@ -10,20 +10,11 @@
 /*=============================================>>>>>
 = DCDW Global Classes & Styles =
 ===============================================>>>>>*/
-html, body{
-    overflow-x: hidden;
-    height: 100%;
-    -webkit-overflow-scrolling: touch;
-}
+
 
 /* sets the max width of the container for the site */
 .container {
   max-width: 72em !important;
-  margin: 0 auto;
-}
-
-.header-container {
-  max-width: 84em !important;
   margin: 0 auto;
 }
 
@@ -52,6 +43,7 @@ html, body{
 .margin-large-bottom {
   margin-bottom: 500px;
 }
+
 body {
   font-size: 100%;
   line-height: 1.6em;
@@ -71,13 +63,15 @@ ul {
 	-webkit-padding-start: 0 !important;
 }
 
-/* fixed top bar that contains the nav links */
-.global-header {
-
+a.header-link {
+  letter-spacing: 2px;
+  transition: all 100ms ease-in-out;
 }
 
-.header-shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+a.header-link:hover {
+  background-color: $dcdw-blue;
+  padding: 0.5em 1em;
+  color: $white;
 }
 
 .logo-wrapper img,
@@ -139,7 +133,6 @@ article hr { margin: 3.5em 0; }
   }
 
   article p { font-size: $text-medium; }
-  .global-header { position: fixed; }
 }
 
 /* Home Partners */
@@ -185,7 +178,6 @@ article hr { margin: 3.5em 0; }
   	border-right: solid 0.01px #eaeaea;
   }
 }
-
 
 /*= End of DCDW Global Classes & Styles =*/
 /*=============================================<<<<<*/

@@ -53,8 +53,8 @@ span.white-bar {
 
 @media screen and (min-width: 1280px) {
   span.white-bar {
-    width: 700px;
-    left: -450px;
+    width: 1000px;
+    left: -750px;
     top: 250px;
   }
 }
@@ -65,16 +65,23 @@ img.introduction-illustration {
 }
 
 .dc-is-design {
-  padding-top: 250px;
+  padding-top: 40px;
 }
 
 .paragraph-2 {
   top: 125px;
 }
 
+@media screen and (min-width: 831px) {
+  .dc-is-design {
+    padding-top: 250px;
+  }
+}
+
+/*
 .illustration-1 {
-  right: -75px;
-  top: 50px;
+    right: -175px;
+    top: 50px;
 }
 
 .illustration-2 {
@@ -86,6 +93,42 @@ img.introduction-illustration {
   top: 125px;
   left: -52px;
 }
+*/
+
+@media screen and (min-width: 831px) {
+  .illustration-1 {
+    right: -425px;
+    top: 170px;
+  }
+
+  .illustration-2 {
+    top: 120px;
+    right: -100px;
+  }
+
+  .illustration-3 {
+    top: 115px;
+    left: -142px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .illustration-1 {
+    right: -250px;
+    top: 170px;
+  }
+
+  .illustration-2 {
+    top: 150px;
+    right: -10px;
+  }
+
+  .illustration-3 {
+    top: 115px;
+    left: -142px;
+  }
+}
 
 .illustration-1,
 .illustration-2 {
@@ -96,14 +139,23 @@ img.introduction-illustration {
   width: 925px;
 }
 
-.homepage-events {
-  margin-top: 600px;
+@media screen and (min-width: 831px) {
+  .homepage-events {
+    margin-top: 600px;
+  }
+
+  .homepage-partners {
+    margin-top: 800px;
+    margin-bottom: 0px;
+  }
 }
 
-.homepage-partners {
-  margin-top: 800px;
-  margin-bottom: 1000px;
+@media screen and (min-width: 1024px) {
+  .homepage-partners {
+    margin-bottom: 750px;
+  }
 }
+
 /* quick and dirty animation pulled from here: http://codepen.io/helenvholmes/pen/pecdI */
 .floaty {
   animation: floaty 5000ms ease-in-out infinite;

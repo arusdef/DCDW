@@ -26,10 +26,10 @@ defaults:
     type: events
   values:
     layout: singles/event
-    event-bg-image: 
+    single-event-header-image: 
     event-date: 
-    event-venue-directions: 
     event-venue-name: 
+    event-venue-directions: 
     is-featured-on-home-page: 
     is-even-on-home-page: 
     is-even-on-events-page: 

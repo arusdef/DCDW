@@ -4,7 +4,5 @@ date: 2016-08-08 21:22:00 -04:00
 creative-team-member-headshot-image: "/uploads/gregfisk_480.jpg"
 creative-team-member-name: Greg Fisk
 creative-team-member-title: Designer/b-boy
-creative-team-member-portfolio: nicegreg.com
 ---
 
-Creative Director, from KC, now DC. Has worked in comics and games. Loves sad novels, good coffee, and weird roleplaying games.

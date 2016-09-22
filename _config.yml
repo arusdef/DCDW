@@ -39,6 +39,10 @@ defaults:
       speaker-name: 
       speaker-title: 
       speaker-bio: 
+    left-button-link: 
+    left-button-text: 
+    right-button-link: 
+    right-button-text: 
 - scope:
     path: ''
     type: sponsors

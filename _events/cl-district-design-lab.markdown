@@ -2,7 +2,7 @@
 title: 'Creative Lunch: District Design Lab'
 date: 2016-08-02 22:13:00 -04:00
 single-event-header-image: "/uploads/cl-design-lab.jpg"
-event-date: 2016-09-23 12:00:00 -04:00
+event-date: 2016-10-28 12:00:00 -04:00
 event-venue-name: "District Design Lab \nMonroe St Market NE, Studio 17 \nWashington,
   DC "
 event-venue-directions: 'Nearest Metro is Brookland-CUA. The studio is located on
@@ -11,6 +11,8 @@ is-even-on-events-page: true
 event-bg-image: "/uploads/cl-design-lab.jpg"
 layout: singles/event
 ---
+
+## 5-9 Design: What Drives Us Beyond Traditional Workday   
 
 District Design Lab (DDL) is a DC-based design incubator that aims to engage the broader design culture in DC and the local communities. Their presentation will focus on the group's work through the lens of working "after-hours" and what motivates them to do work beyond the traditional workday.
 

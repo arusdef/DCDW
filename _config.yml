@@ -33,6 +33,7 @@ defaults:
     is-featured-on-home-page: 
     is-even-on-home-page: 
     is-even-on-events-page: 
+    has-speakers: 
     speakers:
     - speaker-headshot-image: 
       speaker-name: 

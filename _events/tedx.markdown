@@ -1,51 +1,66 @@
 ---
-title: 'Salon: Grace Bonney founder of Design*Sponge'
+title: TEDx MidAtlantic
 date: 2016-07-03 09:51:00 -04:00
-position: 7
-is-wednesday: true
-single-event-header-image: "/uploads/grace-boney.jpg"
-event-date: 2016-10-26 09:00:00 -04:00
-event-venue-name: Kramerbooks & Afterwords
-event-venue-directions: https://www.google.com/maps/place/Kramerbooks+%26+Afterwords+Cafe/@38.9108193,-77.0459355,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b7c63dc61715:0x6197332ff8e08d48!8m2!3d38.9108193!4d-77.0437468
-is-featured-on-home-page: false
+position: 8
+is-featured-on-events-page: true
+is-kickoff-friday: true
+is-friday: false
+single-event-header-image: "/uploads/TEDx_MidAtlantic2.jpg"
+event-date: 2016-10-21 09:00:00 -04:00
+event-venue-name: Sidney Harman Hall
+event-venue-directions: https://www.google.com/maps?cid=17935525282803673115
+is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
-- speaker-headshot-image: "/uploads/graceboney-port.jpg"
-  speaker-name: Grace Bonney
-  speaker-title: founder of DesignSponge
-  speaker-bio: Grace Bonney is the founder of DesignSponge, a daily website dedicated
-    to the creative community. DesignSponge was founded in 2004 and currently reaches
-    nearly 2 million readers per day. She has amassed almost 2 million combined followers
-    across all social platforms. Bonney has worked as a contributing editor at publications
-    such as House & Garden, Domino, and Craft magazine. She is passionate about supporting
-    all members of the creative community; she runs an annual scholarship for up-and-coming
-    designers, writes a free business column for creatives, and is the host of a weekly
-    radio show, After the Jump. Her first book, Design*Sponge at Home, is a national
-    bestseller. After 12 years in Brooklyn, Grace now lives in New York’s Hudson Valley
-    with her wife, Julia, and their three pets. You can find her on Twitter, Instagram,
-    Facebook, and Snapchat @designsponge.
-- speaker-headshot-image: "/uploads/TinaJohnson.jpg"
-  speaker-name: Tina Johnson-Marcel
-  speaker-title: Director, Flagship Content at Capital One
-  speaker-bio: Tina Johnson-Marcel is Director of Flagship Content, Digital Design
-    at Capital One. With 20 years of experience in the content space, Tina’s diverse
-    professional background includes journalism, marketing, digital storytelling and
-    social media. She is a graduate of Howard University in Washington, D.C.
-left-button-link: "#"
-left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/grace-boney_event.jpg"
+- speaker-headshot-image: "/uploads/tedx-lupton.jpg"
+  speaker-link: 
+  speaker-name: Ellen Lupton
+  speaker-title: Museum Curator & Designer
+  speaker-bio: Ellen Lupton is the curator of Contemporary Design at Cooper-Hewitt,
+    National Design Museum in New York City and director of the Graphic Design MFA
+    program at Maryland Institute College of Art (MICA) in Baltimore. An author of
+    numerous books and articles on design, she is a public-minded critic, frequent
+    lecturer, and AIGA Gold Medalist, one of the highest honors given to a graphic
+    designer or design educator in the U.S.
+- speaker-headshot-image: "/uploads/tedx-gage-986973.jpg"
+  speaker-name: Mark Foster Gage
+  speaker-title: Architect
+  speaker-bio: Mark Foster Gage is a practicing architect, professor, and writer.
+    His innovative design work has been featured in institutions including the Museum
+    of Modern Art, the Museum of the Art Institute of Chicago, the Venice Biennale,
+    the Beijing Biennale, the Deutsches Architektur Zentrum in Berlin, and published
+    in venues such as Vogue, Fast Company, The New York Times, Harper’s Bazaar, as
+    well as feayured on PBS, Fox, and MTV. Mr. Gage is a tenured professor, and Assistant
+    Dean at the Yale School of Architecture where he has taught since 2001.
+- speaker-headshot-image: "/uploads/tedx-dowling.jpg"
+  speaker-name: Laura Dowling
+  speaker-title: White House Floral Designer
+  speaker-bio: Laura Dowling served as Chief Floral Designer at the White House from
+    2009 until 2015. In this position, she planned and implemented decorations for
+    major events at the White House, including the White House Christmas, state dinners,
+    the presidential family quarters, the public tour route displays, and Camp David,
+    an imposing portfolio of literally thousands of large and small events, floral
+    arrangements, table settings, and innovative volunteer projects.
+left-button-link: https://tixelator.com/tedxmidatlantic2016/aiga
+left-button-text: Tickets on sale Now!
+event-location: https://www.google.com/maps?cid=17935525282803673115
+event-bg-image: "/uploads/TEDx_MidAtlantic2.jpg"
 layout: singles/event
 ---
 
-## In the Company of Women
+## New Rules
 
-Join us for a conversation with Grace Bonney, founder of [Design\*Sponge](http://www.designsponge.com/) and author of the newly released, In the Company of Women. Her book celebrates an exceptional group of strong, talented, and creative women who have blazed trails, launched their own businesses, and supported other women along the way. Bonney highlights a wide range of makers, artists, designers, and creators including Debbie Millman, Louise Fili, Carla Hall, Dana Tanmachi, Maya Lin, and Tavi Gevinson. Extending the book's theme locally, Grace will be interviewed by another phenomenal woman, [Tina Johnson](https://www.linkedin.com/in/tjmarcel) Flagship content director at Capital One.
+The world is changing fast. Often so fast that we don’t take the time to think about what kind of society and future we actually want to build. Politics has become disconnected from fact. Innovation is pursued without consideration of ethics. Around the world, we are building walls instead of bridges.
 
-Sign up early! The first fifteen registrants will receive a free copy of the book.
+**New Rules asks:**
 
-## Registration opens on October 4!
+* How can we be more empathetic when we design for the future?
 
-AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for only $50 a year today: [http://www.aiga.org/join/.](aiga.org/join)
+* How can we reconnect policy with facts, truth, and logic?
 
-Please plan to arrive at Kramerbooks around 7:30am to allow time to purchase breakfast refreshments and network with other members. The Salon begins promptly at 8:00am.
+* What ethics should we pursue as we shape our rapidly changing world?
+
+The answers are elusive—but we become stronger when we ask these questions together. What are the New Rules that will help guide us for the next century?
+
+**TEDxMidAtlantic** is brought to you by a community of volunteers passionate about the power of ideas. In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At such an event, TED Talks and live speakers combine to spark deep conversation. These local, self-organized events are branded TEDx, where “x” notes that the event is independently organized, with the main TED staff providing general guidance.  

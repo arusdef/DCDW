@@ -3,7 +3,7 @@ title: 'Design Matters: Live with Debbie Millman featuring Abbott Miller'
 date: 2016-09-22 03:57:00 -04:00
 is-featured-on-events-page: true
 is-wednesday: true
-single-event-header-image: "/uploads/designmatters2.jpg"
+single-event-header-image: "/uploads/designmatters3event.jpg"
 event-date: 2016-10-26 19:30:00 -04:00
 event-venue-name: The National Building Museum
 event-venue-directions: https://www.google.com/maps/place/National+Building+Museum/@38.8977516,-77.0198075,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b78ee8345b73:0x48233bd191725f45!8m2!3d38.8977516!4d-77.0176188
@@ -11,7 +11,7 @@ is-featured-on-home-page: true
 is-even-on-events-page: false
 has-speakers: true
 speakers:
-- speaker-headshot-image: "/uploads/Debbie3.jpg"
+- speaker-headshot-image: "/uploads/designmatters2.jpg"
   speaker-name: Debbie Millman
   speaker-title: Host of Design Matters and President of Design at Sterling Brands
   speaker-bio: 'Debbie Millman was named “one of the most influential designers working
@@ -39,7 +39,7 @@ speakers:
     visitors from around the world to our exhibitions, public programs, and festivals.
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/designmatters2.jpg"
+event-bg-image: "/uploads/designmatters3event.jpg"
 ---
 
 Join Debbie Millman for a live podcast experience at the National Building Museum where she will speak to Abbott Miller about Design for the Built Environment. Design Matters is the world’s first podcast about design and an inquiry into the broader world of creative culture through wide-ranging conversations with designers, writers, artists, curators, musicians, and other luminaries of contemporary thought.

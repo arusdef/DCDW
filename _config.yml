@@ -52,7 +52,7 @@ defaults:
       speaker-link: 
       speaker-name: 
       speaker-title: 
-      speaker-bio: 
+      speaker-bio-text: 
     left-button-link: 
     left-button-text: 
     right-button-link: 

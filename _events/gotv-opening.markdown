@@ -1,5 +1,5 @@
 ---
-title: Get Out the Vote Gallery Opening
+title: '"Get Out the Vote" Gallery Opening'
 date: 2016-07-03 09:52:00 -04:00
 position: 3
 is-featured-on-events-page: true

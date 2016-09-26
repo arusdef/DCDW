@@ -62,6 +62,7 @@ defaults:
     type: sponsors
   values:
     is-featured-on-home-page: 
+    is-featured-on-shops-galleries-page: 
     sponsor-image: 
     is-even-on-home-page: 
     is-first-tier: 

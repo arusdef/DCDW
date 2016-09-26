@@ -1,5 +1,5 @@
 ---
-title: 'Salon: Morgan West, Founder of A Creative DC'
+title: Salon with Morgan West, Founder of A Creative DC
 date: 2016-07-03 09:51:00 -04:00
 position: 6
 is-monday: true
@@ -18,11 +18,11 @@ layout: singles/event
 
 ## #acreativedc
 
-Maybe you've used the hashtag. And if you have, you definitely love the feed. Join us and Morgan H. West, the founder of A Creative DC, for a conversation about her use of new media to build a gathering space for thousands of DC creatives both on and offline.
+Maybe you've seen the hashtag. Maybe you've used the hashtag. And if you have, you definitely love the feed. Join us and Morgan H. West, the founder of A Creative DC, for a conversation about her use of new media to build a gathering space for thousands of DC creatives both on and offline.
 
 ## Registration opens on October 4!
 
-AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for only $50 a year today: [http://www.aiga.org/join/.](aiga.org/join)
+AIGA DC Salons are free, intimate roundtable discussions open to **AIGA members only.** Want to enjoy this member benefit? Want to enjoy this member benefit? Check out AIGA’s new membership structure and join for only $50 a year today: [http://www.aiga.org/join/.](aiga.org/join)
 
 ## About Morgan H. West
 

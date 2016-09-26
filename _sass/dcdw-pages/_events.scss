@@ -1,7 +1,7 @@
 /* event card */
 .featured-event-card,
 .event-card {
-	margin: 0;
+	margin: 2em 0;
 	min-height: 441px;
 }
 
@@ -32,6 +32,7 @@
 	.event-list-wrapper {
 		padding: 0
 	}
+
 	.event-card {
 		padding: 0 1.5em;
 	}
@@ -61,11 +62,6 @@ span.hovered {
 	vertical-align: middle;
 }
 
-.card-divider {
-	max-width: 40px;
-	text-align: left;
-}
-
 /* Events Page & Layout */
 .single-event-speaker-text h3 {
 	font-size: 32px;
@@ -80,7 +76,7 @@ span.hovered {
 @media screen and (min-width: 640px) {
 	.event-card {
 		padding: 0 0.5em;
-		min-height: 525px;
+		min-height: 475px;
 	}
 
 	span.event-day {

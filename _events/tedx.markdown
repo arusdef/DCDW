@@ -1,5 +1,5 @@
 ---
-title: TEDx MidAtlantic
+title: TEDxMidAtlantic
 date: 2016-07-03 09:51:00 -04:00
 position: 8
 is-featured-on-events-page: true

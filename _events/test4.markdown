@@ -7,7 +7,7 @@ description: 'Our week of celebration culminates in a day festival featuring cra
   29th at Union Market''s newest outdoor beer garden, Tap & Garden, to toast to this
   year''s DC Design Week. Together, we''ll enjoy an afternoon of local crafts, food,
   drinks, and the company of fellow DC artists. '
-image: "/uploads/cl-closing.jpg"
+image: "/uploads/slack-imgs.com.jpg"
 is-featured-on-home-page: false
 is-featured-on-events-page: true
 is-saturday: true
@@ -19,7 +19,7 @@ is-even-on-home-page: false
 is-even-on-events-page: false
 left-button-link: "#"
 left-button-text: Tickets on sale October 6
-event-bg-image: "/uploads/cl-closing.jpg"
+event-bg-image: "/uploads/beergarden_event.png"
 event-location: https://www.google.com/maps?cid=17935525282803673115
 layout: singles/event
 ---

@@ -1,5 +1,5 @@
 ---
-title: DCDW
+title: DC Design Week 2016
 timezone: America/New_York
 collections:
   dcdw-committee-members:
@@ -46,6 +46,9 @@ defaults:
     event-date: 
     event-venue-name: 
     event-venue-directions: 
+    event-venue-address: 
+    doors-open: 
+    event-start: 
     is-even-on-home-page: 
     is-even-on-events-page: 
     has-speakers: 

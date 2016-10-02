@@ -18,7 +18,7 @@ event-venue-address: 700 Independence Ave SW, Washington, DC 20560
 is-even-on-events-page: false
 has-speakers: true
 speakers:
-- speaker-headshot-image: "/uploads/cm-lynn-myers.jpg"
+- speaker-headshot-image: "/uploads/linnmeyersheadshot.jpg"
   speaker-name: Linn Meyers
   speaker-bio-text: |-
     Linn Meyers currently lives and works in Washington, DC. Her paintings, drawings, and site-specific works have been shown in public and private venues, including the Hirshhorn Museum and Sculpture Garden in Washington, DC, the Hammer Museum in Los Angeles, CA, Margaret Thatcher Projects, New York City, the Phillips Collection, Washington, DC, the Tokyo Metropolitan Museum of Art, Tokyo, Japan, the Mattress Factory Museum, Pittsburgh, PA, the Corcoran Museum of Art, Washington, DC, the Smithsonian American Art Museum, Washington, DC, the National Museum of Women in the Arts, Washington, DC, Sandra Gering Inc, NYC, Morgan Lehman, NYC, G Fine Art, Washington, DC, and Paris, Concret, Paris France. Meyers’s exhibition Our View From Here is at the Hirshhorn through August 2017.
@@ -29,4 +29,4 @@ left-button-text: Tickets on sale October 24 at 10:30 AM
 event-bg-image: "/uploads/creative-mornings.jpg"
 ---
 
-CreativeMornings/DC is a breakfast lecture series and community for creative types in and around Washington, DC. Each month we gather DC's creative people for a free event featuring breakfast, coffee and a short talk from an inspirational thinker or doer. In October, our theme is “Transparency” and we will hear from the talented artist Linn Meyers on her work and process including her exhibition Our View from Here on view at the Hirshhorn. Join us for great creative insights and delicious coffee at the iconic Hirshhorn Museum and Sculpture Garden!
+CreativeMornings/DC is a breakfast lecture series and community for creative types in and around Washington, DC. Each month we gather DC's creative people for a free event featuring breakfast, coffee and a short talk from an inspirational thinker or doer. In October, our theme is “Transparency” and we will hear from the talented artist Linn Meyers on her work and process including her exhibition "Our View from Here" on view at the Hirshhorn. Join us for great creative insights and delicious coffee at the iconic Hirshhorn Museum and Sculpture Garden!

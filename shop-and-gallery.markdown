@@ -12,11 +12,11 @@ pop-up-shop-body-text: "We're taking over the Cherry Blossom Collective storefro
   maker and creative community. Have something to add to the shop? \n\nHit us up and
   lets make it happen! tj@aigadc.org"
 get-out-vote-image: "/uploads/dcdw-get-out-vote.png"
-get-out-vote-header-text: '"Get Out the Vote   " Gallery'
+get-out-vote-header-text: "Get Out the Vote\L Gallery"
 get-out-vote-body-text: "We are hosting a local exhibition that will feature up to
   50 hand-selected posters that were designed by local creatives—with the occasional
   appearance of say ... a Milton Glaser or Paula Scher piece—for the [National \"Get
-  Out the Vote\" Campaign](https://www.aiga.org/get-out-the-vote/).\n \n\nEnter your
+  Out the Vote Campaign\"](https://www.aiga.org/get-out-the-vote/).\n \n\nEnter your
   poster by **October 7,** and your poster could be chosen to feature in this gallery!\n\n\nLaunched
   on President’s Day and in partnership with the League of Women Voters, AIGA's \"Get
   Out the Vote\" campaign wields the power of design to motivate the American public

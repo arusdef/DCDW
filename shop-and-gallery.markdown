@@ -21,7 +21,7 @@ get-out-vote-body-text: "We are hosting a local exhibition that will feature up 
   on President’s Day and in partnership with the League of Women Voters, AIGA's \"Get
   Out the Vote\" campaign wields the power of design to motivate the American public
   to register and turn out to vote in the 2016 general election, as well as local
-  elections to come. "
+  elections. "
 gallery-opening-image: "/uploads/cherryblossom.jpg"
 gallery-opening-header-text: Gallery Opening
 gallery-opening-body-text: On Sunday, October 23rd, mix, mingle, clink and drink a

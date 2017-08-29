@@ -1,0 +1,32 @@
+/* ensures that the fixed header will remain on top of all other elements */
+.global-header {
+  z-index: 9999;
+}
+
+.logo-wrapper img {
+  max-width: 200px;
+}
+
+.logo-wrapper-mobile img {
+  max-width: 100px;
+}
+
+.menu-btn {
+  cursor: pointer;
+}
+
+a svg #D-1,
+a svg #C,
+a svg #D-2,
+a svg #W,
+a svg #bar {
+  transition: all $timing-200 ease-out;
+}
+
+a svg:hover #D-1,
+a svg:hover #C,
+a svg:hover #D-2,
+a svg:hover #W,
+a svg:hover #bar {
+  fill: $dcdw-orange;
+}
